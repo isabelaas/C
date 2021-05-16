@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+/*
+Faça um algoritimo para calcular e exibir a area de um retangulo onde as medidas sao
+informado pelo usuario;
+
+area = base x altura
+
+*/
+
+
+int main(){
+   float areaRetangulo, baseRetangulo, alturaRetangulo;
+   printf("digite a base do retangulo ai: ");
+   scanf("%f", &baseRetangulo);
+
+   printf("digite a altura retangulo ai: ");
+   scanf("%f", &alturaRetangulo);
+
+   areaRetangulo = baseRetangulo * alturaRetangulo;
+
+   printf(" a area do retangulo é: %f" , areaRetangulo);
+
+    return 0;
+
+}
