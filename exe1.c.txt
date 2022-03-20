@@ -1,0 +1,22 @@
+/*
+1. Faça um programa que leia um número inteiro e o imprima, então leia um número real e
+também o imprima.
+*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int x = 1;
+    double y = 1.20;
+  
+
+{
+    printf("Numero inteiro é %d  ", x);
+    
+
+    printf("Numero real é %.2f ", y);
+  
+
+    return 0;
+}
+}
